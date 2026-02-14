@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Владимир Жуков | Портфолио</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Шрифты Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@300;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome 6 (иконки) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Фиксированная навигация -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-logo">VZ</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Главная</a></li>
+                <li><a href="#skills" class="nav-link">Навыки</a></li>
+                <li><a href="#education" class="nav-link">Образование</a></li>
+                <li><a href="#achievements" class="nav-link">Достижения</a></li>
+                <li><a href="#projects" class="nav-link">Проекты</a></li>
+                <li><a href="#contacts" class="nav-link">Контакты</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Секция 1: Главная (Hero) -->
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-text">
+                    <h1>Привет, я <span class="highlight">Владимир Жуков</span></h1>
+                    
+                    <div class="typing-container">
+                        <span id="typing-text"></span>
+                        <span class="cursor">|</span>
+                    </div>
+                    
+                    <p>Студент Торайгыров Университета (TOU), выпускник колледжа ПВЭК. Увлекаюсь веб-разработкой и программированием на Python.</p>
+                    <p>Родной язык — русский. Изучаю казахский и английский. Стремлюсь стать Fullstack разработчиком.</p>
+                    <a href="#contacts" class="btn primary-btn">Связаться со мной</a>
+                </div>
+                <div class="hero-image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5coYBBmDXRwVC4lZUfRdtq7FdQybhza7Teg&s" alt="Владимир Жуков, аватар" class="avatar">
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция 2: Навыки -->
+        <section id="skills" class="section">
+            <h2 class="section-title">Мои навыки</h2>
+            <div class="skills-grid">
+                <!-- Hard Skills -->
+                <div class="skills-category">
+                    <h3><i class="fas fa-code"></i> Hard Skills</h3>
+                    <div class="skill-item">
+                        <span>Python</span>
+                        <div class="progress-bar"><div class="progress" style="width:65%">65%</div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>JavaScript</span>
+                        <div class="progress-bar"><div class="progress" style="width:45%">45%</div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>HTML/CSS</span>
+                        <div class="progress-bar"><div class="progress" style="width:70%">70%</div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>SQL</span>
+                        <div class="progress-bar"><div class="progress" style="width:50%">50%</div></div>
+                    </div>
+                    <div class="tools-list">
+                        <p><strong>Инструменты:</strong> Git, VS Code, Figma, PostgreSQL</p>
+                    </div>
+                </div>
+                <!-- Soft Skills -->
+                <div class="skills-category">
+                    <h3><i class="fas fa-users"></i> Soft Skills</h3>
+                    <ul class="soft-list">
+                        <li>Командная работа</li>
+                        <li>Критическое мышление</li>
+                        <li>Коммуникабельность</li>
+                        <li>Быстрая обучаемость</li>
+                        <li>Ответственность</li>
+                    </ul>
+                </div>
+                <!-- Языки -->
+                <div class="skills-category">
+                    <h3><i class="fas fa-language"></i> Языки</h3>
+                    <div class="skill-item">
+                        <span>Русский</span>
+                        <div class="progress-bar"><div class="progress" style="width:100%">Родной</div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Казахский</span>
+                        <div class="progress-bar"><div class="progress" style="width:15%">A1</div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Английский</span>
+                        <div class="progress-bar"><div class="progress" style="width:40%">A2-B1</div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция 3: Образование -->
+        <section id="education" class="section">
+            <h2 class="section-title">Образование</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Торайгыров Университет (TOU)</h3>
+                        <span class="date">2023 — 2026</span>
+                        <p class="degree">Бакалавр, Информационные системы</p>
+                        <p>Павлодар. Участник студенческого IT-клуба. Изучаю веб-разработку и базы данных.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Павлодарский экономический колледж (ПВЭК)</h3>
+                        <span class="date">2019 — 2023</span>
+                        <p class="degree">Техник-программист</p>
+                        <p>Диплом с отличием. Курсовой проект: "Интернет-магазин на Django".</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция 4: Достижения -->
+        <section id="achievements" class="section">
+            <h2 class="section-title">Достижения</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <i class="fas fa-certificate icon"></i>
+                    <h3>Сертификат Stepik</h3>
+                    <span class="date">Декабрь 2024</span>
+                    <p>"Поколение Python": курс для начинающих.</p>
+                </div>
+                <div class="achievement-card">
+                    <i class="fas fa-trophy icon"></i>
+                    <h3>Хакатон TOU Hack</h3>
+                    <span class="date">Ноябрь 2024</span>
+                    <p>3 место в направлении Web-разработка.</p>
+                </div>
+                <div class="achievement-card">
+                    <i class="fas fa-graduation-cap icon"></i>
+                    <h3>Диплом ПВЭК</h3>
+                    <span class="date">Июнь 2019</span>
+                    <p>Красный диплом. Специальность "Вычислительная техника".</p>
+                </div>
+                <div class="achievement-card">
+                    <i class="fas fa-medal icon"></i>
+                    <h3>Олимпиада по информатике</h3>
+                    <span class="date">Март 2023</span>
+                    <p>2 место в областной олимпиаде (Павлодар).</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция 5: Проекты -->
+        <section id="projects" class="section">
+            <h2 class="section-title">Проекты</h2>
+            <div class="projects-grid">
+                <!-- Карточка 1 -->
+                <div class="project-card">
+                    <img src="https://cdn.3dnews.ru/assets/external/illustrations/2020/06/23/1014032/Notes-2.png" alt="Скриншот приложения для заметок">
+                    <div class="card-content">
+                        <h3>NoteKeeper</h3>
+                        <p>Веб-приложение для заметок с авторизацией и тегами.</p>
+                        <div class="tech-tags">HTML • CSS • JavaScript</div>
+                        <div class="card-links">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Карточка 2 -->
+                <div class="project-card">
+                    <img src="https://is42-2018.susu.ru/alexandrovskijap/wp-content/uploads/sites/7/2021/03/66291144-f0d87700-e895-11e9-8545-b8f93f799063.png" alt="Скриншот интернет-магазина">
+                    <div class="card-content">
+                        <h3>MarketPlace</h3>
+                        <p>Дипломный проект. Интернет-магазин на Django.</p>
+                        <div class="tech-tags">Python • Django • SQLite</div>
+                        <div class="card-links">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                            <span class="no-demo">Нет демо</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Карточка 3 -->
+                <div class="project-card">
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUSExIWFhUXFRkYFhgXGRsYGBoZGBcYGB0XGBgYHigiGBslHxoaITEhJikrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQGy0lHyUvLy0tLy0tLS8vLS8tKy0tLy0tLS0tNS0tLS0vLS0tLS0vLS0tLy0tLS0tLS0tLS0uLf/AABEIAKgBKwMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAABQIDBAYBB//EAEQQAAIBAgQDBAYIAwcDBQEAAAECEQADBBIhMQUTQSJRYXEGFDKBkdEjQlKSobHB8AcV4SQzNGJygsJDU/EXRFRjohb/xAAYAQEBAQEBAAAAAAAAAAAAAAAAAgEDBP/EACoRAAICAgIBAgUEAwAAAAAAAAABAhESMQMhQTJREzNxgcFhseHwIqHR/9oADAMBAAIRAxEAPwD7jRRRQBRRRQBRRRQBRXlFAe0VVfvogBdlUEwMxAknoJ61RbufT3Fna1aMf6mvCf8A8/hQGyivKKA9oryvaAKKKKAKKKKAKKKKAKKKKAKKKKAKKKKAKKKKAKKKKAKKKKAKKKKAKKKKAKKKKAKKKKAKKKKAKKKKApxN/IBoWJMKB1Op3OwABJ8AfKs13GXF0awWJ9nlnMCe4lguXzOnjOle3TatspcjOxOUkSxkxp1AlgO7tAdRUORculmZntiIt5Wggy3bYRBJGU5WzDw3oCWCwAADvL3CkOzHNvBYKCSEUnosDQd1c3w++9viVxLcmw1m3aRrhbKbtlr7PbtuQZZQ3sz9V49ggPWxV5UKPbLEAg3QyojCNwFJdWM7Bd9jXD+l1i6q2QDcVbfqpY27lwG2BcDXrjW7b6lRrLIQPjQH0nD3cwmII0I7iOniPHqINWVjwjE9oMjSAZAZQQRoQCSNQNx3VsoAr2vK57j3pphcHe5N7mA5FuM622e3bR3NsNcdQQgzKRJoDoqKWnjlgYsYLP8ATmybwX/IGyzPfPTuBNLbHpvhHviwGudq6bKXTacWHvLM2lvEZS/ZPXWNJoBPhPTfEveRPVbQs3MZewiPzmL5rPM7TJy4AOT7XWp8C9N8RjLlzD2sGFvWLZ9YF24VRL3NKLaDBCWDKrPmAiI61HhWI4W5wYts2e7i8RiMOhJzG6DeW67L0SRcAnTURW/hXFMBhhxG5admNm893GGS758gYxJ9kAFQogAowA0oBE38SL64PC4t8NZQYq4yoDeuFVVUZszlbJIMqRAU7jWr8b/EdrWMt4V7FohvVQxF1sxOKgTbU24ZUO5YrIj3XcV4dw6zw/DHNf5GHdRYOHuPzg96VChrZzEnPED7VKuLXOFo9u9iE4hL2rdy4rjEa28I+RbmKtjUhWAbM4M5gfrUA3xHp3dVrl71QepWsV6s903Rzc3MFo3FtZYKBzEZpI18Ka2PS+23EbnD8plLeZbn1WuKFa5aHQsqXLTafaMxFc1xpeD2cY7uMQxV0xOIS1znwtu40MmIxCW5RWMZtd4kjXXKvBOG2Lw/tWMN61j7Izc1iHxGJyuIWcrZ0OViBOUmgGPAf4nLjGw1ixZU379q67AuRatuiMy2jcCmWPZmB2Q3U6VViP4i4m3hVxNzC2FD4z1VPp3IBU31d3IsyADaEQCSGO0QbOE4rhFnEYWzZS4nq9y7h7F3JcGHa9dAS5bN4jLcuHJuTqRoasxC8JuYS2nOdba8QIt5LjJeXGNcdSoKkMDNxm/0kHaKA34707SycCrqCcUFe4ULFLVt8qLcJZVOQ3LltZYLueoirsP6cWfXL2DvA22S+lm22Vyjs9tXANwLkRiWgKTJjxpVhX4Zfd8MeddvYlXwdxbpZ7qrhQS2ZmMoBnzZ57RYHU1m4yeFYXGM104q5cttav38vPu2LTqgFu9iFTsBoUEEgnSaAa+l3pjfwuIexZw1u6LeBfGOz3Tb7FtyrKoCNLbRtvVVz02xNwKMLglusuDtYq+HvcsKLylltWzkOdjlbUgDQd9V+k3FOF+s3Te5rucH6tiHtJce1aw985xzXQFbebcNvGu1L+IWuGXb3qxtY5Hw+GNt2ti/aV8NaV4Fy4pAuWmyMFY+0djQH0DgnElxWHtYhAQt22txQdwGAMGOomK21yHCPTfh4w7FS9i1YsW3C3LT2/oW7FtrYI7aEgKCsyY76tHp9hOTeusL6Gxy+ZauWXS8BdcIjC2wlgxO4oDqqK5nD+nWDYWyWuIHuvZJuW2t8u7bTObd3NGRiuoB3pzwXiiYqxbxFsMEuLmTMMpKzoYPQ7jwIoDbRRRQBRRRQBRRRQBRRRQBRRRQBRRRQCeyhJvXLgDasuSNQqkZVE94h9I1ueAjZhvpLatnbbRh9YAkBtR1EH315xKwrABlUyVmYgqrBiDO402rw8TtiRPaBChdJJMQB5yKAy8QFuwDde5cyIpYgsXGhEGD1BP5HpSDEcfwpZ7nMXPygXJtHVGjsnWOo8PGm1+y960yX1uMLiFWycpAswYWXnpuSfdtSS/6O2pZRh8QA1tbTEvYICqUIJAuSPZEwD1oDf6Lsqs9i5dW4oW22HBUZuW6FzAgEjwjsiB4B8ttVkoXWTJGRipPfBXT3EUlwvCe2TcAKRbAHY1FpSqmZLKwMEMrDrpWzG4S9cuqUvslsAhrciQY7Lh1IYkH6rEgzJGkUBvS7dJ0hvEoyAfeYk+4GuR9Nf4enH4r1jnW0+gSz2rRe4mW49zmWnFxcj9qJg7V3NuYGaJgTG09Y8KnQHDXPQO6cZ6968ecMSLoHKTJkVeVyifb1tFlJDASxbLNbOC+imIwzrbt42MGl57q2RaHM7bM5tNeLGbeZifZDdJrraKA+fcI/himFexetXRz7T3na46Zsxu27iqijMMltWfNlB116mamP4cZLRt28Rla7g7uGxTMhbnPcJcXyM+jB3uHWey+WdBXfUUB84H8MD6vftc6yGvPh2ITD5LAGHMwbIudpnk5mzCdKjxz+GDYlLKm9hl5eHuWIGGYoue4WFy0nO+jdRAEk6yesD6TRQHIX/RLEpeu3MLjzZF9bQv57QuvmtILfMtsWAVmUAGQwnWs2J/h+DjW4gl4LiOfauIxt5oRLIsvZbtdoOJOYQQYiu4ooDhrHoJdVrdn1z+xW8V6ylnlDmZuYbotm7m1QOc3sz0nrWRP4U4cMt7MPWRiucbuU6r6yb+TJmgNEJn3ge6volFAc9wv0XS1j8VxAlWuX1RFhcuREUAgme0zEAk6eyB0pbx30MvXbuKNjFi1axqKuKRrQuN2U5RNpswyFk7JkHvrs6KA41vQ6/auXDgsacPbvLaFxTaFx15KLbDWnJAUlFAOZW118KY4z0aL38Te5sc/BrhoKyVIN05yZ7X95tptvXQ0UBw1n+GthcGcOL1znm1YT1hma4VOHYOmRLjEJbDieWIEGJ2Iq4n6AXsVbxJxOLR799LNoMtnLbS3YvC9l5eeWLMDJzDfTau+ooD5/wD+mwOBuYFr1vJdxS3nyWiiIq5Jt2ELk2ycntSfbbTWu9s2lRQigBVACgaAACAAO6KnRQBRRRQBRRRQBRRRQBRVfKHj94/OjlDx+8fnQFlFV8oeP3j86y4vELbIBDGR0Y/OtSsxutm6ilZ4gv2LnxPzqP8AM0+y/wB4/OtwZOcRqRWG5wi2Xz6g5laAdJWI6eAqj+Zp9l/vH50fzNPsv94/OmDHxI+41K1X6uszGvfS7+Zp9l/vH51fhcUrmAGGk+0fnRxaNU0+jaVFeLaAMxWZbqlygzaCScxjppvVqwftfePzrmpp6Oji1svorPcKgSSY/wBR+dZ8Nihc1RXImMxYgHbbXUePhW5ImhhRVWQf5vvH51Fl7gx/3H50tAvorE2IUNlOYaT7R+dYMXxtFc27dq9eZYz5GACyJALXHUZog5QSYI76yM4y0a4tbHlFK8BxFLylra3JBKurEqyMI7LgtodQZEgggjStXa17DaTHb37uvXxqjDVRVFtZ3DD/AHE/kaGTwY/7j86AvorC2JUEqwYGJAzHXy13rMnFrZEgPHmR+BNZFqXSEljsb0UvtYxGBgNI6ZjP51AY5ZjJc+J+dVTJyQzorAuKWYKuPeY/OpYbEK8xnBBgglh+fSoUky6NtFZrjKPte4t86zX8cqsECXGY9ATGobckwNvx863JChlRWW24YmA0DScx18tamQP833j86xST7DTRfRWC/iQsAK5YmAAxHvJJ2rRCyBJk7do9099amnoUX0VXyh4/ePzo5Q8fvH51phZRVfKHj94/OveUPH4n50BOiiigCluO/vrX760ypNx0dpf9P61UNkcjpFtqxfz3+bcVrRUC0qrliQ2YkySTqoGvQ6UYvhwMFIHh0NJhbXuHwrTaxbrsx8jr+dXg1pnN8kXtBdwbrup8xr+VUUytcVP1l+HyNbgiXBMAz8fjRzcfUguOMvSzn6bcHWFZvGPcBP61lFlHaEJBMwCNPcRVqYV03YZfA76d1ZySWI44vKy/hqkh36sxj3bVqVoABBH78KqRezKv0k65h3nTp7oqnA44ucpAGm/9P615o8TUevB6Z8qcu/JDilzMbdsa52gx0EHWaYW0CgKBAAgDwFLVAbFFuiJE9MxMflmq7juMaxhr15RLJaZgDtIUkT4UQZvryuMGCPNZOZeDqmYYo3mg3Ai3DNqeXy4YdnLEfg7tcXc4Wxf5U820GYDMSGKB4AVT2SM2piDl79LxMssC58zQSWJyx3Dv/KkuJjD84Yi3cFprly8t1EZxFy2VZHyaoVJ0J0gLrI0d4fiZlUGFvKCwE5dACR2j4bk+XiKhi8Tzbbo+FuFSFBVgIYM0EbxA0J8J6iKjjhijZtOViz0dxK4g3rxUql9k5akCWSyAudh/maRHcopqOCqIC3ry5QAArQNNtIjQQPIR31nwmMQAMmEuiAAkJAAEKF/ywOnd4yK2XOJEBT6tdOYT7O2pGU9Z0naNRrXTswXjBW2e8pxOILW8pZc5EZkkEADUHXbSVPjUmwKPeu2vWb+cKLhVHyhBcLQoMaTlOm8AHury/iwzLcOCvC4FKhgsOBAOUsh2kxE7g+ZvscO5ZBRVQsc10qScz6D2jBaNRJrTC7FYy5mgYQuOjFlWdB0Mkdd+73VnS/dg/wBhjX7SR1M7d/h11jWmxkgiSKyYa60FSTKmDr+Nc8v80i8biU4LEXC6hsLyx9vMpgyNNB+/jGjCWb4vMXebcERAgkkFSOqwJHjPXequIIWUnM22oBIkd+nWkhNxIy5nHUfW93f/AEr0Rhl5PPKeLqhwLeOEqHssMq9pwZzFYaAoAgMJEjY/DTgFxQaLptFI3XNnPidAPhSZ8abSNdYNlVSxBWSY6AHqTAHmKgeJ4lMztasNllnsLm5qqoDGLh7LMFIOXKAZEHWaiUaLjLIc4i7ePMFtArAjIxI7YzDNpHZMSBPeNqjhBiSj5gEJZeWC2YhdM0tDanWJmq1a0VzNf7LKrqZyqA/snUwJ0AFFlrIzA3LZ3BLACCCynUmDqjfCuWUr0dKVbLf7ZP8A7eJ655jxIgE7awOugrac0PmKx9WAZjxk+73T1gYcLcw4WObbOXcyojU9CatvX7CzLKsaTESd4U/WOmwmqTbWjGlZVYv3LiQgIDtdU3JANsAsAQDOY93Tqe6mFpYMTJECTudOsdax4DDKLKiVuCDDADUEnuJ/Op4GyZzGVGsLEb7k93lWX4BvoooqzAooooAooooApNxz2l8v1pzSji6FnQDciB8auGznyekV0VqfAOAx7PZEtB1Gk/lWWuyaZ52mthTzIUtZRvl26yd/zpTg7eZ1Hjr5DWugIrjyy0jtwx2xJg35ZLEGYgCOp/KtuJ7V22nd2j+/d+NbGtg/v9DWKwfprhJGgUCfL+lefmllS/X+T08EcLfsv4Nd6yrDVZ/P41nt4ZFBhZ7w3TyrTJqu886eNa5tRZOKbMGEwbFSwGUliSNRMaA6z0ivWFxQQRIOhG4I7iOtNQKKhx/v97/2afOuO4MhreHS7eTDZS163nlQhbKlq3pm7ZDqFkgATECuswl9oSeyDrlHRRsAOg6R4Uzu4VG1KiehjUdN6U2eFEu+W64CmBtM9ZJBnr8aybdJWVBVbGHDOJC8CQjrBjtRr4iCdJBHjEjQgnW1yPl1pWvDnkjnPMdYI8/P5nwi3CI1qQ5LTsSRG2wgV0bb9JGtm1ix6x+dQs3u8+XyrLdxBbT8B+tVa9/uH71rcX7mZmrFXSDoTURe01NStYfQaA+c6VZatbgmT3+FMmhXkLF8NsdazY0w2ddSBDDw7zWwWxHsjTpFSygDYQfhUSWSLi6Ytu2wFL3LkACWOYKgHv0jxpNcu2MVctWLV4ZGDtcEspcKBlUTBZCSS2XfIAdDV/HoVbYYFrVu+j3REzaAaCR9YI5Rj4LPSsPEcZaZVtpiReutibRw0MjlFV1YvKahQueS240rePFq0bNtOiT4FcOtu5ykts902mw9lSVvgBoi20DPKhw5iFBk1vPGLpcI2GCPczi3nZcrELBTmWy4z9kypA0Gk5a9xiM1xMTa+nFt2JthgTyrltV7GYxmkZgNJDEd1KTxay91MPbtm2tm8cTfd0FrIAWZUg9SWVZP1Qfd1OZ0zLcy5fVbMKAADc0AGoEcvQDT4GsfFOFPcZHyZDk7V23eZXttuCEAC3VB6N8Klfwli6M7XSq3G0kqFYk6CSO3PcSeo2JBvt8GVS30lw5gAAWBAhs06jUyBvMwZmTQErHCQETNYsM+VeYQMqlhGqjKdPaMeXmNN/AoxzGzbYzMtr+m+9Y7fArYzHPdMg6ZtpIMqAIX2RHdVbcGtFSpF4gheokFXFxWH+YMojujSKAapZyqERVVRsBp+Q0/rVtrN9aPcf6Ug/kVlEyg4hVAiA+gAIgAdAMoiNte8zfw3CWRdDK90tqe00g6EazvoTW0zMkPaKKKw0KKKKAKKKKAKX4sDnISdhI85phSbjntL5frVRVsibpWRwnC0R77K90m9OjFyFlQuzGCZXfoNBpULvDXG0N5f1q/g96ZUnWJHlmamVZk4OhipqxbwrDkFiwIgQJ8aZUUVEpZOy4xxVBSG9eYYhkgZSymeuiTlj3zO3Ten1Jcfgyt7m54VmggSPqZde1B2nboK5TqrZ0im7ivI7qm6NVNGHuSNdxofdXPcYtm9iuS6c1EtI62ZyrcLNcVnaTDBMqCDIGfaSKqskSmdPXlc5wu2tjGCzaQ27dyy7tZJBVCjWwtxQCQgbMwgGDk7waZWcXidA2HBMAlg4VZIBIy9oiJI31jxq8TLGNYsHdAu3Leszm2I0buJ391UpxHEaTg2Guv0iGBPhuY6fjVLYq/BurhQrQZUwXYA24gqdCQX0IPsba1LhbTNUqTQ2ueG4/cVmv4roB8ayHiGKn/AAfZ2jmKW33mYA8NSZG2tW2cTeLoGwwUMTmYOpywNDESZPd4+/VHsxvorzjvFeZx31su8Uy3RbNq5BfIHCyskIZMbDtRJ+yaof0gtje3e6T9GdAQSC07Dstqe7xE1RFFmHugiJ1G2vSpi71nX9zVA9IEP/TveeSQNuoMdencTsCa8HpAhaBavETBOQ5fvbb7mYHuMGrVFJ0bGxCzoQZoAn2iPIGql4upj6O6JV21SPYMaydJ6VTc46BEWLxnfsbDWdBJnTQRJJA61Hw72ysvYr41jBbFvIua61wJaWcoLEFjmaDCBQWJg7eNcoLRXFtiGVBzGS0XTRbSv2FYL9bmup1nsgifaMdknG1Ic8q92InsbyCZUzDAAdD3RM1WnpDbJA5d2TtKgTpMgkwR4jTxjWqUUjG2yy1jMPbJs81AwOoJAMwhPv8ApE+8K5W/wfDsTzMVbm5eF5wO0twi7bJVjPsDOiAdA8n2iB1J44obJyb2aY9jSTMazHTv6io//wBAkA8m/r/9Td8a91bQsWYuzZezetetoUui7ElTlLlcrjUewde7URFM8XhHuEFcRlARQIAMntST4HTrU7/HESJt3dVDRl11jSJmZIEd50mDEv5yuQPyr3XQ2yCIAOs6Aa77VphmHDrpGU4slcjLooDEsCMxIMSJBEAbV4eFXQCFxdyJ0lVYheo8fPpTkv2c3hOuh/8ANUYhiQpDFO10gnroZBisoGC3hbiq+a893MoABQCCJ17PfP4CocMssLgJUga7g91QbiVsMUe/cUg7FVkgGM30anSe+NjpFa+HY+3cYBL+fMpuKIA7AYp9kaTprr2fObUqVEOFuxpRRRUlhRRRQBRRRQBSniqg3EBMA7n3+NNqTcc9pfL9auGyOT0kls27cuHJKgkDMpncxAHjTIGdRtXMADTy/wCTU54Telcp3X8qzkj1ZkJq6NwFFFFcTsFV4i0HUqeo/wDFTbvqvEXcqyBNY6rsJ12Y+HXTsd/ZbwI2J935Ucbwll7ZuXVP0QZ1ZWZHWBJyOhDCY2G9ZeTF9bp2cBd9AZk9mPaJ0mdhTqp4+lV6OnIleS0+zhvRTh120pd8zXbhBvXHJbLHs2gx1YrJnxMfVrpb/F7VoA3rqpOi5mjNG8DcxTPIIjp+Hwrl0PLxd8F0t3WKG0XgZrAtqMtskdHzlgO8E9KrG5WzlbR0WFxSuouW3Fy2dipzD3Eb+VZ+Luy8p1zkC4MwWdiD7QHTz76TcFvBr2L5NxYNtFLrGQ4mLksukEhTbk+AppdtYvtZbtqA3ZkEnJ/m27W2vifOqxoWNjUG9oedKgmNIBF2wNNeyTGh67NBjXTbatDJiOchz2+VPaEHN1jKY8t/GtBZjLuIBPLtowkRJgkQNZnvkbdQaot4nF9cPb91zrpuI8+te8QsNnL+tctYkqYgQF8RAgGf9WhBgin1G7H+OMTuQvXtRoQNp6de4ACjDRcxOJBAFlIIGuadcoJEeBzDfXSo2sRjCy5rFsAkZiLkwM2saawPj4bUW8KQV/tbELlLagkhAM0mdAdCdOukVX6m0f41uuvYEaEdPIn3eZoC7nYoGOUjaGSWy66aCJkbxMHaYoZ8UVByWw2hInT2R2Z7pkZvAaCqUwNz2jjGiD0WBv2vPUHu8I0rwYJwZ9eYnxCRsRqBHd4bHxoCxsRjBH0NsyPtRBjr4TpInyMQfLOIxeitaQ97TAPsmQJ03iJOx1018tYN+0PXWYspAHY7MkHMI8NNe+vRhm1zYwmQCuywN57JEggGZ7tI1kC3EX8SFtlbQLa8xZEDTQglh1gx3T4VLD4jEEjPZUAnWHBga6+J20jxnoMtrB3FgnHMYI3CQfA+cfieutXYiwzSVxZTMwYRlMDKVyjNMgkg+YFASt3sUdGtoPEGR8J/f4iKYjF9bNvp9cjrrsD0/Wo28E2X/FsTBGYZdyF3BlT8Prd+tX8NTKzA4jmkhTlMdkaiQBrB7z3UBfgXuFZuoFadgZEQOvnPw6bVTxaBy2ZmXLcB7PXssMrDqNfwFb6xcTtBggP2/wDi1Lrtj6GRMQ7kkKsaxI1/Or+H3i7dBG4ymevWdPKKsd1tjx6Cs+EY86TpmBmvNKbU0/fqi4pNNfca0UUV6SAooooAooooApNxz2l8v1pzSbjntL5frVw2c+T0i0fp/wAmq7B3sjg9Nj5VSP0/5NRXarRwunZ01FY+F4jMuU7r+XStleOSp0euLtWFRKD3VKisKMPErIFowIggj4x+taDcJAPeJqPEf7t/KvMJ2ra/6QPhp+lc40uT7HR/LX1J2n6Uq9K8GbmHcBVZipUZgCAW7OfUGMs5pGulM8hqOJuhUZrhARVJYnooEk/Cu/mzkzn/AEa4WLdpVErbXRR9Zj1d+4tvHQQOldFbOtc3hOKXl9mwhBTmCybv9pNv7WTJkDEa5M3vp/hcbadLdwOuW4uZCTBIgHY9wOvdWv8AQxPrs9wI7LJ9livuNXWz7P77xWe9hQWJW7lneD1GnfXthcuvMDQ079NiN++vLxqSaTXSO08WrTF/GfU87i7bYt9YqG1JQLIy7nLlE76eGlaXsC0WgrCbg0AcSzGATB6957z405fHEH+7JGusjpUrWMloKFfHT8a9No5UJcPicGshbTAqraZWnIM4DROxXMV6w/iRVatgTmy23JAZoh1P0YBKiYieWPA5V7hT18bBMISO/T9xVF3i2VgptmTtqJPkKOSRgou38Eo5Zss2Rmnss2UghWOYbkZANJYwNydfJ4cADyys6+y6zoR/u36dw7hTLHcdWyFzWnl2hEQZnZt4VR8Sdh1qOC9IhcflGzdt3MuYJcAUso+spBKsBpMHSRSwYzfwEBTaME7G2+7aSQdfMnaPKr8bfwoS25tM4IJAHtDISTILAnVz3+1400OMb/tH4iq34g42ssf9y1oFzJg0znlEahWOVwdRm66x2endVDvgJzclsx1/u7gOpIPTzH4U2/mT/wDYb7y/Oj+Y3P8A47feX51tGWL2fDZWXktC3ShWYkqG1Ha1BgwOpYaa1s4dgcOt1+XbAKKgmZXXMRlEmG8YBgirvX3ieS33lr27xLLvbM9BImocktlUzfWDi4OVY+3/AMWr1Mex/wCkR7x+NSduYBpEGfwIqZu4uhXuLrl5bZBuZtRMxI8p79z5Ka1YLHqXFsBhMkZkK7ef71qo8RUPBOcxoEgz493/AJqzCF3cNcYAjNFtdQJESx79/jtNc+OC2U3XQ0ooor0EBRRRQBRRRQBSrilvNcRe/T8aa0p4tcy3EaJgTG3WqhsiejLybJDhL6OyKxKqykiCSZAMjUxWStlziEhgLSrmBBIOuv8AtE1jrrG/Jwnj4JW3KmQYNNMLxIHR9D39P6UporZRUtmRm46OmBorn8PiWTY6dx2renFh1U+41wfE1o9EeWL2WcWvZUIicwIpXgcRkIPTUHymr+JYwXFAAIid/KsKVEY1ypPyn+6KlO+JteJL9mdKrBhI1BrHxHCi7buWmnLcRkMbwwKkjx1pbYxDJ7J93StR4kTuorp8Np9ELlT2c1xPH3sM9vNh1fFuclq6rrkchAmYoRmUQQxXafrRT3g2Esth7aHtLYTKLklT2YzNIOgYrPlWXimHW84fUEIU8lYy2U9C2gJ7lgbmjlDlvaByo6MhjuZSs+J1mt+G6MfKrKhesMA6YC41uMysrhbjWxAzpazhzbGkDTSIG1OLXCsJdQXFRSlxQQQzDMsCOuo0GlcviuJDDG1fvYe4cQAtu3kym1dIRkGVs0gGQYK5hEUz4XYtOlnBvLXLdtmZlMKvaGbUH7Zhf9NczqdTbw4UBVEAdJPXz8aBb8R41z9nBWA9tCbp54LWzIA7Kq2Ux7JgT5SNtKmcJgwCrXmXMVPauMhOQ6FJjsy3tL7jpoo2xzeV4i2F82mB7hvVFnhqoSxlmJnUyAT3Du/KlT2sEpA9ZIntSHED2CDMZVGiwug3gb00t4mxbtgq8ohI7MvEyYhQT3+4VjQsV+kVhluLeAcryb1ligLPaNzIRdCr2mAKwcuuo8aU8JxVlr9izYZ3TCvcuO7Blyh1a2tntgGSWkiAOx5116Y60xAW4rMdgGEkxMfDXyrn+FcDNkMXYE5muXI/6lxjJYnoAdFXu1OpIre6BquYFVzFMTcTO7OQJiW10APfH3fEz7awQJAGLvnWSJOoE6TExr39BVLtOtM8JZyjxO/yrpjS72clJyl1ozrwkg/4u9sOvdMzOmumwHXpAEl4SCoBxFwlWDBmIJELl0kad866k+7Vmkwup/AUvXGmQcl2e7lFu4awTXFy7pHWuj04QArabG3QxELqAxnqSRvpp+tMbDLGUEsyqBJ9oxpJPfp+NLb6h3Dsl4ZshZQsg5QGEyJUiYInoa8OOhpW3dBzGJtsNxqIjUTtU8jaqkOPu8vsb7vEFByIpd9ZVY0iQZJ0GukVnaxeuH6QQnRFIAnoWbfuOnVRWrCFVghSM8klhlaR9qtGaRpr47DT86ZJG7MtnAqpAyqAeiiBp47mtlq2ARAiN6hHaHXfyq63vWR7bb9/+GvpFtFFFdiAooooAooooApNxz2l8v1ooq4bOfJ6RbRRRXc8wUUUUAUUUUAGo2/38BRRXCXzo/R/g9Efky+q/JKiiiu55wr3D3kbQzvuN/h3V5RWpWhZsx/ChiLlq6HAFtSEjdS3tOB9rKABO0k91VYjgRQo+HKB1UoVuTluIxBhmXVWDAEMBprpRRXilGpHti7iIeBcRe7dF1kVLdkvbsKpL530R7udgCwCjKNB7Xga64Ye0dTYtydTKrudZOm+lFFUD31OxH9xb+4vyqVu1bExaQToYUdJ8NRBPxoooaTw2Htqcy2kUnqAB0j3aE/jWbibQI7z/Wiith6iOT0sX2EJYACacW7Wb2j7hp+O9FFXyMjiXQYUZZSNR+XT9+Jr22BnkCJB+de0V5Euvv8Ak9BezgbmseIQvoBuIk941H60UVPrk4PRvpSkSS5mTPu0deh66VatvT2266z+m1eUVXE7gmORVJojDSNQdPLv7qutMZ1Uj4EfGiitht/UlmiiiiuxIUUUUB//2Q==" alt="Скриншот путеводителя">
+                    <div class="card-content">
+                        <h3>Pavlodar Guide</h3>
+                        <p>Сайт-путеводитель по Павлодару с картой достопримечательностей.</p>
+                        <div class="tech-tags">HTML5 • CSS3 • JavaScript</div>
+                        <div class="card-links">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция 6: Контакты -->
+        <section id="contacts" class="section">
+            <h2 class="section-title">Свяжитесь со мной</h2>
+            <div class="contacts-container">
+                <div class="contact-info">
+                    <h3>Контактная информация</h3>
+                    <p><i class="fas fa-envelope"></i> vladimir.zhukov@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Павлодар, Казахстан</p>
+                    <div class="social-links">
+                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-telegram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-vk"></i></a>
+                    </div>
+                </div>
+                <form id="contactForm" class="contact-form">
+                    <input type="text" id="name" placeholder="Ваше имя" required>
+                    <input type="email" id="email" placeholder="Ваш Email" required>
+                    <textarea id="message" rows="5" placeholder="Ваше сообщение" required></textarea>
+                    <button type="submit" class="btn primary-btn">Отправить сообщение</button>
+                    <p id="form-feedback" class="form-feedback"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Владимир Жуков. Павлодар, TOU. Сделано с ❤️</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
